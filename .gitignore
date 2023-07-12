@@ -1,0 +1,76 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.lock
+*.sqlite
+*.sqlite3
+*.swp
+*.out
+*.zip
+*.tar.gz
+*.rar
+*.gz
+*.tgz
+*.map
+*.env
+*.env.*
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+.env
+
+#expo
+.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# system files
+Thumbs.db
+.DS_Store
+
+# android
+*.iml
+.idea/
+.gradle/
+local.properties
+
+# iOS
+ios/Pods/
+ios/build/
+
+# node.js
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# VSCODE
+.vscode/
