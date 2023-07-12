@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "little-lemon-app",
+    "owner": "pieterherman",
+    "slug": "little-lemon-app",
+    "description": "It is a food ordering app that allows users to order food from a restaurant. It has a login screen, a menu screen, a profile screen, and a settings screen. The menu screen displays the menu items from the restaurant. The profile screen displays the user's profile picture, name, and email. The settings screen allows the user to change their profile picture, name, email, and notification settings. The app uses SQLite to store the menu items and AsyncStorage to store the user's settings. The app also uses ContextAPI to handle authentication.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Logo-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Logo.png"
+    }
+  }
+}
